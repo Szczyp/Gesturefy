@@ -603,6 +603,10 @@
     "message": "Kopiuj obraz",
     "description": "Copy image"
   },
+  "actionNamePlayLinkInMpv": {
+    "message": "Graj adres URL odnośnika w MPV",
+    "description": "Play link in MPV"
+  },
   "actionNameViewPageSourceCode": {
     "message": "Wyświetl źródło strony",
     "description": "View page source"
@@ -854,6 +858,10 @@
   "actionDescriptionCopyImage": {
     "message": "Kopiuje obraz, na którym rozpoczął się gest, do schowka.",
     "description": "Copies the image, where the gesture started, to clipboard."
+  },
+  "actionDescriptionPlayLinkInMpv": {
+    "message": "Graj w MPV zaznaczony url lub odnośnik, na którym rozpoczął się gest.",
+    "description": "Plays either a selected url, or the link where the gesture started in MPV."
   },
   "actionDescriptionViewPageSourceCode": {
     "message": "Otwiera nową kartę zawierającą kod źródłowy strony.",

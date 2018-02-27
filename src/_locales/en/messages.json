@@ -613,6 +613,10 @@
     "message": "Copy image",
     "description": "Copy image"
   },
+  "actionNamePlayLinkInMpv": {
+    "message": "Play link in MPV",
+    "description": "Play link in MPV"
+  },
   "actionNameViewPageSourceCode": {
     "message": "View page source",
     "description": "View page source"
@@ -865,6 +869,10 @@
   "actionDescriptionCopyImage": {
     "message": "Copies the image, where the gesture started, to clipboard.",
     "description": "Copies the image, where the gesture started, to clipboard."
+  },
+  "actionDescriptionPlayLinkInMpv": {
+    "message": "Plays either a selected url, or the link where the gesture started in MPV.",
+    "description": "Plays either a selected url, or the link where the gesture started in MPV."
   },
   "actionDescriptionViewPageSourceCode": {
     "message": "Opens a new tab containing the source code of the page.",
