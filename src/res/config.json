@@ -22,8 +22,8 @@
     "ScrollBottom": "D",
     "ScrollPageUp": "",
     "ScrollPageDown": "",
-    "Next": "DR",
-    "Previous": "DL",
+    "Next": "UR",
+    "Previous": "UL",
     "FirstTab": "",
     "LastTab": "",
     "PreviousSelectedTab": "",
@@ -63,7 +63,7 @@
     "ViewPageSourceCode": "",
     "PopupAllTabs": "",
     "PopupRecentlyClosedTabs": "",
-    "PlayLinkInMpv": ""
+    "PlayInMpv": "DL"
   },
   "Settings": {
     "Actions": {

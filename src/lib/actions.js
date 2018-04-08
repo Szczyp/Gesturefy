@@ -732,13 +732,13 @@ let Actions = {
     }
   },
 
-  PlayLinkInMpv: function (data) {
-      let url = null;
-      if (isURL(data.textSelection)) url = data.textSelection;
-      else if (data.link && data.link.href) url = data.link.href;
-      else return;
+  PlayInMpv: function (data) {
+    let url = null;
+    if (isURL(data.textSelection)) url = data.textSelection;
+    else if (data.link && data.link.href) url = data.link.href;
+    else url = this.url;
 
-      chrome.runtime.sendMessage("{85873c09-6e78-47fd-b10d-8ac0ed005f2a}", {link: url});
+    chrome.runtime.sendMessage("{85873c09-6e78-47fd-b10d-8ac0ed005f2a}", {link: url});
   },
 
   ViewPageSourceCode: function () {
